@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- ipfs -->
+    <script src="./js/buffer.js"></script>
+    <script src="https://unpkg.com/ipfs-api/dist/index.js" crossorigin="anonymous"></script>
+
+
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" crossorigin="anonymous"></script>
+    <script src="./js/jscript.js"></script>
+
+
+
+</head>
+
+<title>NFT</title>
+</head>
+
+<body>
+
+
+    <header>
+        <!-- Fixed navbar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+            <div class="container">
+                <a class="navbar-brand" href="#">NFT Item</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">민팅하기</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mynft.html">My-NFT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="sale.html">판매</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="wallet.html">지갑세팅</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <h1 class="bd-title text-center">지갑세팅방법</h1>
+
+
+        <div class="row" style="margin-top: 30px">
+            <div class="col-sm">
+                메타마스크 <br>
+                •Network Name: Mumbai Testnet<br>
+                •New RPC URL: https://rpc-mumbai.maticvigil.com<br>
+                •Chain ID: 80001<br>
+                •Currency Symbol: MATIC<br>
+                •Block Explorer URL: https://explorer-mumbai.maticvigil.com/<br>
+                <br><br>
+
+                테스트 코인 받기<br>
+                https://faucet.matic.network
+            </div>
+            <div class="col-sm"><img src="./images/mask.png"> </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 30px">
+            <div class="col-sm">
+                메타마스크 <br>
+                •Network Name: Klaytn Baobab<br>
+                •New RPC URL: https://api.baobab.klaytn.net:8651 <br>
+                •Chain ID: 1001<br>
+                •Currency Symbol: KLAY<br>
+                •Block Explorer URL: https://baobab.scope.klaytn.com/<br>
+                <br><br>
+
+                테스트 코인 받기<br>
+                https://baobab.wallet.klaytn.com/access?next=faucet
+                <br>
+                https://ko.docs.klaytn.com/dapp/tutorials/connecting-metamask
+            </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 30px">
+            <div class="col-sm">
+                메타마스크 <br>
+                •Network Name: Rinkeby<br>
+                <br><br>
+
+                테스트 코인 받기<br>
+                https://faucet.rinkeby.io/ <br>
+                https://rinkeby-faucet.com/ <br>
+                https://faucets.chain.link/rinkeby
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="row" style="margin-top: 30px">
+            <div class="col-sm">
+                <pre>
+네트워크 정보 https://ethereum.stackexchange.com/questions/27048/comparison-of-the-different-testnets
+
+
+Ropsten
+
+Proof-of-Work (Ethash)
+Supported by Geth, Besu, and all other Ethereum clients
+Best reproduces the current Ethereum production environment
+Chaindata size 15 GB - Apr 2018
+Kovan
+
+Proof of Authority (Authority Round)
+Supported by OpenEthereum and Nethermind only
+Chaindata size 13 GB - Apr 2018
+Rinkeby
+
+Proof of Authority (Clique)
+Supported by Geth, Besu, Nethermind, and OpenEthereum
+Chaindata size 6 GB - Apr 2018
+Goerli
+
+Proof of Authority (Clique)
+Supported by Geth, Besu, Nethermind, and OpenEthereum
+Chaindata size 0 GB - Apr 2018
+</pre>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+    <footer class="footer" style="margin-top: 30px">
+        <div class="container">
+            <span class="text-muted">2023년 아이템 NFT 플레이스</span>
+        </div>
+    </footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
